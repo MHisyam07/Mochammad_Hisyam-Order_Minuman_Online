@@ -1,1 +1,6 @@
 STORE "kode" AS INTEGER WITH VALUE
+
+IF "kode" SAME WITH "1"
+    STORE "harga" WITH "5000"
+	STORE "total" WITH "harga" * "jumlah"
+	DISPLAY "total"
