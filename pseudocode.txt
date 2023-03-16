@@ -10,3 +10,5 @@ IF "kode" SAME WITH "1"
 	    DISPLAY "total"
         ELSE
             STORE "kode" AS INTEGER WITH VALUE
+END IF
+DISPLAY "lanjutkan ke pembayaran"
